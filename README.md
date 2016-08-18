@@ -1,7 +1,7 @@
 # Templates
 
 ## Introduction
-HTML/CSS templates which can be used to create regularly created documents. HTML file is converted to PDF using Prince[princexml.com]
+HTML/CSS templates which can be used to create regularly created documents. HTML file is converted to PDF using [Prince](princexml.com)
 
 ## Steps to get started
 
