@@ -1,0 +1,89 @@
+html{
+	font-family: 'Calibri', sans-serif;
+	font-size: 10pt;
+}
+
+@page {
+	margin: 0.5in;
+	size: A4;
+}
+
+/*Table*/
+table{
+	width: 100%;
+	table-layout: fixed;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+th:last-child{
+	text-align: right;
+}
+
+/*list*/
+ul{
+	margin-top: 0; 
+	margin-left: 1.3em;
+	padding-left: 0;
+}
+
+/*Typography*/
+.section--title th{
+	text-align: left;
+	border-bottom: 1px solid black;
+	font-variant: small-caps;
+}
+
+.name{
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+/*Education Table*/
+.table--education{
+	table-layout: auto;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.table--education td:first-child {
+	text-align: left;
+}
+
+.table--education td:last-child{
+	text-align: right;
+}
+
+/*Helper Classes*/
+.table--layout--auto{
+	table-layout: auto;
+}
+
+.cell--colon{
+	width: 5%;
+	text-align: center;
+}
+
+.align--left{
+	text-align: left !important;
+}
+
+.align--center{
+	text-align: center !important;
+}
+
+.align--right{
+	text-align: right !important;
+}
+
+.vertical--align--middle{
+	vertical-align: middle;
+}
+
+.margin--line td{
+	padding-bottom: 1em;
+}
